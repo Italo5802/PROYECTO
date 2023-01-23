@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SINDICATO GAD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/empleados.css">
+</head>
+
+  <body background="Img/fondo3.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+    <div class="container" style="background-color: rgba(165, 50, 42, 0.911);" id="princi">
+      <p>Sindicato Único de trabajadores del Gad Latacunga</p>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" >
+          <h3>Menu</h3>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse c" id="navbarNavDropdown" >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link "  href="Principal.html"> INICIO</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="loginadministrador.html">ADMINISTRACION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="loginsupervision.html">SUPERVICION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="consultarsueldo.html">EMPLEADOS</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container  " style="background-color: rgb(255, 255, 255);" id="cu">
+        <div class="row">
+            <div class="col-0 col-xl-1 col-sm-0 ol-md-0 col-lg-1"  >
+            </div>
+            <div class="col-12 col-xl-10 col-sm-12 ol-md-12 col-lg-10"  id="parte"  style="background-color: rgb(255, 255, 255);">
+                
+                <center>
+                    <p>LISTADO DE EMPLEADOS</p>
+                    <div class="row">
+                        <div class="col-6 col-xl-3  col-md-2 col-lg-2" >
+                            <a class="btn btn-outline-primary" href="FORMempleados.html" role="button">Nuevo</a>
+                            <br/>
+                        </div>
+            
+                        <div class="col-6 col-xl-3 col-md-2 col-lg-2" >
+                            <a  class="btn btn-outline-secondary" href="modificarempleado.html" role="button">Modificar</a>
+                            <br/>
+                            <br/>
+                        </div>
+                        
+                        <div class="col-12 col-xl-6 col-md-8 col-lg-8" >
+                            <center>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                  </form>
+                            </center>
+                        </div>
+
+                    </div>
+                    <br/>
+                    <div class="table-responsive table-sm "  style="height: 420px;">
+                        <table class="table table-bordered border-primary table-hover " >
+                                <thead>
+                                  <tr>
+                                    <th scope="col";>#</th>
+                                    <th scope="col" >Nombres</th>
+                                    <th scope="col">Cedula</th>
+                                    <th scope="col">Dirección</th>
+                                    <th scope="col">Departamento</th>
+                                    <th scope="col">Perfil</th>
+                                    <th scope="col">Jornada laboral</th>
+                                    <th scope="col">Foto</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">EMP1</th>
+                                    <td>Carlos Mateo colcha Perez</td>
+                                    <td>1756025802</td>
+                                    <td>Salcedo</td>
+                                    <td>Servicios comunitarias</td>
+                                    <td>Chofer</td>
+                                    <td>lunes a viernes</td>
+                                    <td><img src="Img/emp1.jpg" alt="emp1" width="65%" height="80%"></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">EMP2</th>
+                                    <td>Daniel  Alexander Simba Paez</td>
+                                    <td>1756025802</td>
+                                    <td>Ambato</td>
+                                    <td>Seguridad</td>
+                                    <td>Chapa Municipal</td>
+                                    <td>lunes a viernes</td>
+                                    <td><img src="Img/emp2.jfif" alt="emp1" width="65%" height="80%"></td>
+                                                        
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">EMP2</th>
+                                    <td>Daniel  Alexander Simba Paez</td>
+                                    <td>1756025802</td>
+                                    <td>Ambato</td>
+                                    <td>Seguridad</td>
+                                    <td>Chapa Municipal</td>
+                                    <td>lunes a viernes</td>
+                                    <td><img src="Img/emp3.jfif" alt="emp1" width="65%" height="80%"></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">EMP2</th>
+                                    <td>Daniel  Alexander Simba Paez</td>
+                                    <td>1756025802</td>
+                                    <td>Ambato</td>
+                                    <td>Seguridad</td>
+                                    <td>Chapa Municipal</td>
+                                    <td>lunes a viernes</td>
+                                    <td><img src="Img/emp4.jfif" alt="emp1" width="65%" height="80%"></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">EMP2</th>
+                                    <td>Daniel  Alexander Simba Paez</td>
+                                    <td>1756025802</td>
+                                    <td>Ambato</td>
+                                    <td>Seguridad</td>
+                                    <td>Chapa Municipal</td>
+                                    <td>lunes a viernes</td>
+                                    <td><img src="Img/emp5.jfif" alt="emp1" width="65%" height="80%"></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">EMP2</th>
+                                    <td>Daniel  Alexander Simba Paez</td>
+                                    <td>1756025802</td>
+                                    <td>Ambato</td>
+                                    <td>Seguridad</td>
+                                    <td>Chapa Municipal</td>
+                                    <td>lunes a viernes</td>
+                                    <td><img src="img/emp2.jpg" alt="emp1" width="65%" height="80%"></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">EMP2</th>
+                                    <td>Daniel  Alexander Simba Paez</td>
+                                    <td>1756025802</td>
+                                    <td>Ambato</td>
+                                    <td>Seguridad</td>
+                                    <td>Chapa Municipal</td>
+                                    <td>lunes a viernes</td>
+                                    <td><img src="img/emp2.jpg" alt="emp1" width="65%" height="80%"></td>
+                                  </tr>
+                                </tbody>
+                        </table>
+                      </div>
+
+                </center>
+
+            </div>
+            <div class=" col-1 col-xl-1 col-sm-1 ol-md-0 col-lg-1" >
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+  <div class="conteiner-footer" >
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-1 col-sm-0 ol-md-0 col-lg-0 ">
+          <h4></h4>
+         
+        </div>
+        <div class="col-xl-3 col-sm-12 ol-md-12 col-lg-4 ">
+          <h2>¿PORQUE VISITARNOS?</h2>
+          <p2>Esta pagina te permite conocer la información mas relevante de la empresa como 
+            sus labores realizados con la sociedad mas recientes, su personal a cargo, conocer
+             los sueldos de los empleados y poder modificar los datos de los sueldos y supervisión de los mismos
+          </p2>
+            <br/>  
+            <br/>
+            
+         
+        </div>
+
+        <div class="col-xl-3 col-sm-12 ol-md-12 col-lg-4">
+          <h2>CONTACTANOS</h2>
+          <p2>Barrio San Sebastian (Calle Gonzales y Suarez)</p2>
+            <p2>Latacunga-Ecuador</p2>
+            <p2> Telefono :(593) 03 2252205 / 2252307 / 2252346.</p2>
+            <p2>Cotopaxi-Ecuador</p2>
+            <p2>www.Sindicato_Unico_de_</p2>
+            <p2>Trabajadores.com</p2>
+            <br/>
+            <br/>
+
+        </div>
+
+        <div class="col-xl-4 col-sm-12 ol-md-12 col-lg-4">
+          <h2>ENLACES EXTERNOS</h2>
+          <a target="_blank" href="https://www.facebook.com/people/Sindicato-%C3%9Anico-de-Trabajadores-GAD-Latacunga/100080898182372/"><img src="img/facebook.png" alt="facebook" width="19%" height="23%"></a>&nbsp; &nbsp; 
+          <a target="_blank" href="mailto:efrainchicaiza@gmail.com"> &nbsp; &nbsp; <img src="img/gmail.png" alt="gmial" width="19%" height="23%"></a>&nbsp; 
+          <a target="_blank" href="https://www.instagram.com/sutoss2022/">&nbsp; &nbsp;<img src="img/instagram.png" alt="gmial" width="19%" height="23%"></a>&nbsp; 
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          
+        </div>
+      </div>
+    </div>
+
+</div>
+  
+
+  </body>
+</html>
